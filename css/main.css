@@ -1,0 +1,626 @@
+/* ---------------------- Fonts ---------------------- */
+@font-face {
+    font-family: 'Museo Sans 100';
+    src: url('../fonts/museosanscyrl-100.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/museosanscyrl-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/museosanscyrl-100.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/museosanscyrl-100.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/museosanscyrl-100.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/museosanscyrl-100.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+    font-family: 'Museo Sans 300';
+    src: url('../fonts/museosanscyrl-300.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/museosanscyrl-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/museosanscyrl-300.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/museosanscyrl-300.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/museosanscyrl-300.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/museosanscyrl-300.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+    font-family: 'Museo Sans 900';
+    src: url('../fonts/museosanscyrl-900.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/museosanscyrl-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/museosanscyrl-900.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/museosanscyrl-900.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/museosanscyrl-900.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/museosanscyrl-900.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+  
+  @font-face {
+    font-family: 'Natasha';
+    src: url('../fonts/natasha.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/natasha.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/natasha.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/natasha.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/natasha.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/natasha.svg#svgFontName') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+	font-family: 'Stroke-Gap-Icons';
+	src: url('../fonts/Stroke-Gap-Icons.eot');
+}
+/* ---------------------- Specification ---------------------- */
+body {
+    font-family: 'Museo Sans 300', sans-serif;
+    font-size: 15px;
+    color: #22241b;
+    padding: 0;
+    margin: 0; 
+}
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+p {
+    margin: 0;
+    line-height: 1.8em;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Natasha';
+    line-height: 1.1em;
+    letter-spacing: 0.12em;
+}
+h1 {
+    color: #fff;
+    font-size: 49px;
+    text-align: center;
+    
+}
+h2 {
+    font-size: 37px;
+    line-height: 1.3em;
+}
+h3 {
+    font-family: 'Natasha';
+    font-size: 22px;
+    color: #888886;
+    margin-bottom: 37px;
+}
+ul, li {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    
+}
+a, button, li {
+    transition: all 0.5s ease;
+}
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active {
+	outline: none;
+}
+.d-flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+    display: flex;
+}
+.justify-content-between {
+	justify-content: space-between;
+}
+.justify-content-center {
+    justify-content: center;
+}
+.align-items-center {
+    align-items: center;
+}
+.justify-content-around {
+    justify-content: space-around;
+}
+.text-align-center {
+    text-align: center;
+}
+.link {
+    font-size: 14px;
+    color: #ffffff;
+    letter-spacing: 0.28px;
+    font-weight: 900;
+}
+/* ---------------------- First Screen ---------------------- */
+.header {
+    background: url('../images/bg.jpg') no-repeat center top / cover;
+    padding-bottom: 82px;
+}
+.top {
+    color: #fff;
+    padding: 53px 0;
+}
+.top a {
+    color: #ffffff;
+}
+.top a:hover {
+    color: #9f9797;
+}
+.top__logo {
+    font-family: 'Museo Sans 900';
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2.04px;
+}
+.top__logo span {
+    font-family: 'Museo Sans 100';
+}
+.top__nav {
+    width: 325px;
+    font-family: 'Museo Sans 900';
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    margin-left: 16px;
+}
+.top__menu li {
+    border-bottom: 1px solid transparent;
+}
+.top__menu li:hover {
+    border-bottom: 1px dotted #686865;
+}
+.top__mail {
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    border-bottom: 1px solid transparent;
+}
+.top__mail:hover {
+    border-bottom: 1px solid #686865;
+}
+.main {
+    margin: 236px 0 247px 0;
+}
+.main__text {
+    font-size: 29px;
+    font-family: 'Museo Sans 100';
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 3.48px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.main__arrow {
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 2.16px;
+    text-transform: uppercase;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    border-radius: 100px;
+    line-height: 55px;
+    padding-bottom: 3px;
+}
+.main__arrow:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+}
+
+/* ---------------------- Second Screen ---------------------- */
+.about {
+    padding: 78px 0 55px 0;
+}
+.introdaction {
+    margin-top: 66px;
+}
+.story {
+    width: 443px;
+}
+.story__text {
+    margin-bottom: 27px;
+    letter-spacing: 0.02em;
+}
+.details {
+    width: 463px;
+}
+.merits__structure {
+    margin-top: 60px;
+}
+.merits__element {
+    font-family: 'Museo Sans 100';
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.merits__element_avarage {
+    margin-right: 14px;
+}
+.merits__number {
+    color: #204d15;
+    font-size: 20px;
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    margin-bottom: 37px;
+}
+.merits__number:after {
+    content:'';
+    position: absolute;
+    display: block;
+    width: 55px;
+    height: 55px;
+    border: 1px solid #c6d6bb;
+    transform: rotate(45deg);
+}
+.merits__number:before {
+    content:'';
+    position: absolute;
+    display: block;
+    width: 72px;
+    height: 72px;
+    border: 1px solid #204d15;
+    transform: rotate(45deg);
+}
+.merits__text {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    line-height: 1.6em;
+    
+}
+.merits__text_project {
+    width: 107px;
+}
+.merits__text_review {
+    width: 113px;
+}
+.merits__text_years {
+    width: 46px;
+}
+.connection {
+    margin-top: 58px;
+}
+.parts {
+    font-size: 14px;
+    margin-top: -13px;
+}
+.parts__links {
+    width: 167px;
+    height: 107px;
+    flex-direction: column;
+    margin-top: -2px;
+}
+
+.parts__links a {
+    color: #204d15;
+    letter-spacing: 0.12em;
+    border-bottom: 1px solid #becbbb;
+    line-height: 1.9em;
+}
+.write {
+    width: 248px;
+}
+.write__icon {
+    font-family: 'Stroke-Gap-Icons';
+    font-size: 25px;
+    color: #204d15;
+    letter-spacing: 3px;
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    background-color: #eef1ed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-bottom: 9px;
+}
+.write__text {
+    color: #22241b;
+    font-style: italic;
+    width: 168px;
+    margin-bottom: 14px;
+}
+/* ---------------------- Third Screen ---------------------- */
+.skills {
+    padding-bottom: 76px;
+}
+.skills-wrapper {
+    margin-top: 53px;
+    margin-right: 90px;
+}
+.skills-element__number {
+    color: #204d15;
+    font-family: 'Museo Sans 100';
+    font-size: 13px;
+    text-transform: uppercase;
+    height: 59px;
+    width: 59px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2px;
+    padding-top: 1px;
+}
+.skills-element__number:after {
+    content:'';
+    display: block;
+    border: 1px solid #204d15;
+    border-radius: 100px;
+    height: 59px;
+    width: 59px;
+    position: absolute;
+}
+.skills-element__number:before {
+    content:'';
+    display: block;
+    border: 1px solid #adb2ac;
+    border-radius: 100px;
+    height: 48px;
+    width: 48px;
+    position: absolute;
+}
+.skills-element_html {
+    margin: 0px -22px;
+}
+.skills-element_css {
+    margin: 0 39px;
+}
+.skills-element__text {
+    font-family: 'Museo Sans 900';
+    text-transform: uppercase;
+    margin-left: 26px;
+    letter-spacing: 0.12em;
+}
+/* ---------------------- Forth Screen ---------------------- */
+.works {
+    padding-bottom: 116px;
+}
+.works__parts {
+    margin-top: 50px;
+}
+.works__element {
+    position: relative;
+}
+.works__element img {
+    display: block;
+}
+.works__overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.works__element:hover .works__overlay {
+    opacity: 1;
+}
+.works__title {
+    color: #ffffff;
+    font-family: 'Museo Sans 900';
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+}
+.works__overlay a {
+    font-size: 13px;
+    color: #ffffff;
+    margin-right: 7px;
+    margin-top: 3px;
+    border-bottom: 1px solid #908c8b;
+}
+
+/* ---------------------- Fifth Screen ---------------------- */
+.footer {
+    padding-bottom: 106px;
+}
+.footer__text {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+}
+
+/* ---------------------- Media Queries ---------------------- */
+/* 992-1200px */
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* 768-992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 700px;
+    }
+    .works__element img {
+        width: 100%;
+    }
+    .works__element {
+        width: 30%;
+    }
+    .parts {
+        display: block;
+        margin-left: 7px;
+    }
+    .story {
+        margin-right: 30px;
+    }
+    .write {
+        margin-top: 25px;
+    }
+    .skills-element_html {
+        margin: 0;
+    }
+    .skills-element_css {
+        margin: 0; 
+    }
+    .skills-element__text {
+        margin-left: 0.9em;
+        margin-top: 10px;
+    }
+    .skills-wrapper {
+        margin-right: 0;
+}
+
+/* 576-768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 530px;
+    }
+    .merits__structure {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .merits__element_avarage {
+        margin-right: 0;
+    }
+    .merits__text {
+        margin-bottom: 80px;
+    }
+    .merits h3 {
+        text-align: center;
+    }
+    .story {
+        margin-right: 0;
+        width: 498px;
+    }
+    .introdaction {
+        flex-direction: column;
+    }
+    h2, h3 {
+        text-align: center;
+    }
+    .story {
+        width: 100%;
+    }
+    .details {
+        width: 100%;
+    }
+    .connection {
+        margin-top: 0;
+    }
+    .parts {
+        display: flex;;
+        margin-left: 0;
+    }
+    .skills-element {
+        flex-direction: column;
+    }
+    .skills-element__text {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .header {
+        position: relative;
+    }
+    .top__nav {
+        display: none;
+    }
+}
+
+/* 320-576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+    } 
+    .top__nav {
+        position: absolute;
+        left: 50%;
+        top: 10%;
+        margin-left: -161px;
+    }
+    .top__mail {
+        font-size: 11px;
+    }
+    h1 {
+        font-size: 35px;
+    }
+    .top__menu li {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .main__text {
+        font-size: 18px;
+    }
+    .main {
+        margin-bottom: 140px;
+        margin-top: 100px;
+    }
+    .connection {
+        margin-top: 58px;
+    }
+    h2 {
+        font-size: 27px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    .introdaction {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+    .story {
+        width: 100%;
+    }
+    .details {
+        width: 100%;
+    }
+    .merits__number {
+        margin-bottom: 26px;
+    }
+    .merits__text {
+        margin-bottom: 29px;
+    }
+    .about {
+        padding: 41px 0 60px 0;
+    }
+    .parts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .connection h3 {
+        text-align: center;
+    }
+    .skills-wrapper {
+        margin-top: 33px;
+    }
+    .skills-element {
+        width: 160px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .skills-wrapper {
+        flex-wrap: wrap;
+    }
+    .footer__text {
+        font-size: 9px;
+    }
+    .works__title {
+        font-size: 10px;
+        text-align: center;
+    }
+    .works__overlay a {
+        font-size: 9px;
+    }
+    .top__mail {
+        display: none;
+    }
+    .top {
+        justify-content: center;
+    }
+    .works__parts {
+        flex-direction: column;
+    }
+    .works__element {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
