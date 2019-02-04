@@ -132,6 +132,8 @@ button, button:hover, button:focus, button:active {
 .header {
     background: url('../images/bg.jpg') no-repeat center top / cover;
     padding-bottom: 82px;
+    background-color: rgba(13, 11, 23, 0.5);
+    background-blend-mode: soft-light;
 }
 .top {
     color: #fff;
@@ -141,7 +143,7 @@ button, button:hover, button:focus, button:active {
     color: #ffffff;
 }
 .top a:hover {
-    color: #9f9797;
+    color: #BEBBBB;
 }
 .top__logo {
     font-family: 'Museo Sans 900';
