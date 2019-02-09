@@ -131,7 +131,7 @@ button, button:hover, button:focus, button:active {
 /* ---------------------- First Screen ---------------------- */
 .header {
     background: url('../images/bg.jpg') no-repeat center top / cover;
-    padding-bottom: 82px;
+    padding-bottom: 214px;
     background-color: rgba(13, 11, 23, 0.5);
     background-blend-mode: soft-light;
 }
@@ -143,7 +143,9 @@ button, button:hover, button:focus, button:active {
     color: #ffffff;
 }
 .top a:hover {
-    color: #BEBBBB;
+    color: #eae50d;
+    transform: scale(1.5);
+    display: block;
 }
 .top__logo {
     font-family: 'Museo Sans 900';
@@ -153,6 +155,10 @@ button, button:hover, button:focus, button:active {
 }
 .top__logo span {
     font-family: 'Museo Sans 100';
+}
+.top__logo:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.5);
 }
 .top__nav {
     width: 325px;
@@ -164,16 +170,9 @@ button, button:hover, button:focus, button:active {
 .top__menu li {
     border-bottom: 1px solid transparent;
 }
-.top__menu li:hover {
-    border-bottom: 1px dotted #686865;
-}
 .top__mail {
     font-size: 13px;
     letter-spacing: 0.12em;
-    border-bottom: 1px solid transparent;
-}
-.top__mail:hover {
-    border-bottom: 1px solid #686865;
 }
 .main {
     margin: 236px 0 247px 0;
@@ -189,7 +188,7 @@ button, button:hover, button:focus, button:active {
 }
 .main__arrow {
     color: #ffffff;
-    font-size: 18px;
+    font-size: 20px;
     letter-spacing: 2.16px;
     text-transform: uppercase;
     width: 40px;
@@ -200,8 +199,12 @@ button, button:hover, button:focus, button:active {
     padding-bottom: 3px;
 }
 .main__arrow:hover {
-    background: rgba(255, 255, 255, 0.8);
-    color: #000;
+    background: transparent;
+    border: 1px solid #eae50d;
+    color: #eae50d;
+    transition: all 0.5s ease;
+    transform: scale(1.5);
+    box-shadow: inset 0 0 50px rgba(0,0,0,0.2);
 }
 
 /* ---------------------- Second Screen ---------------------- */
