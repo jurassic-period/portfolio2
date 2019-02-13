@@ -529,6 +529,14 @@ button, button:hover, button:focus, button:active {
     .top__nav {
         display: none;
     }
+    .wow {
+	/*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+    }
 }
 
 /* 320-576px */
