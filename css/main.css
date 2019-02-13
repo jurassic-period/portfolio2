@@ -530,7 +530,23 @@ button, button:hover, button:focus, button:active {
         display: none;
     }
     .wow {
-	/*CSS animations*/
+        /* Весь список необходимого сброса для анамации, как правило достаточно только сброс CSS */
+
+        /*CSS transitions
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important; */
+        
+        /*CSS transforms
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important; */
+
+        /*CSS animations*/
         -webkit-animation: none !important;
         -moz-animation: none !important;
         -o-animation: none !important;
