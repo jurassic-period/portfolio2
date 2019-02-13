@@ -599,7 +599,7 @@ button, button:hover, button:focus, button:active {
     }
     .skills-element {
         width: 160px;
-        margin-top: 10px;
+        margin: 10px auto 0;
         padding-bottom: 10px;
     }
     .skills-wrapper {
